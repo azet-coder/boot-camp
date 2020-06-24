@@ -11,9 +11,6 @@
 /* ************************************************************************** */
 #include <stdio.h>
 char *ft_strcpy(char *dest, char *src);
-
-int main()
-{
 char src[] = "hello";
 char dest[10];
 int i = 0;
@@ -23,7 +20,3 @@ int i = 0;
 		i++;
 }
 	dest[i] = '\0';
-	printf("src = %s\n", src);
-	printf("dest = %s\n", dest);
-	return 0;
-}
