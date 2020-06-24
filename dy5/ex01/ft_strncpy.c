@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
-int main()
-{
    char src[] = "Hello";
     char dest[10];
    int i = 0;
@@ -21,8 +19,3 @@ int main()
 		i++;
    }
 	dest[i] = '\0';
-	printf("src = %s\n", src);
-    printf("dest = %s\n", dest);
-    return 0;
-}
-
