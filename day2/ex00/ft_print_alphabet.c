@@ -6,7 +6,7 @@
 /*   By: lmdluli <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/19 15:40:15 by lmdluli           #+#    #+#             */
-/*   Updated: 2020/06/19 16:50:44 by lmdluli          ###   ########.fr       */
+/*   Updated: 2020/06/21 10:42:38 by lmdluli          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void ft_print_alphabet(void)
 {
     char c;
     c = 'a';
-    while(c <= 'z')
+    while(c <= 'z'ii)
     {ft_putchar(c);
     c++;
     }
